@@ -593,7 +593,7 @@
     <script src="../assets/libs/chartist/dist/chartist.min.js"></script>
     <script src="../assets/libs/chartist-plugin-tooltips/dist/chartist-plugin-tooltip.min.js"></script>
     <script src="../dist/js/pages/dashboards/dashboard1.min.js"></script>
-<!-- Start of ChatBot (www.chatbot.com) code -->
+<!-- Start of ChatBot code -->
 <script type="text/javascript">
     window.__be = window.__be || {};
     window.__be.id = "636dcf075f4cb500073f1725";

@@ -11,9 +11,7 @@
                                 <img src="../assets/images/logo-icon-nav.png" alt="homepage" class="light-logo" />
                             </b>
                             <span class="logo-text">
-                                <!-- dark Logo text -->
                                 <img src="../assets/images/logo-text-nav.png" alt="homepage" class="dark-logo" />
-                                <!-- Light Logo text -->
                                 <img src="../assets/images/logo-light-text.png" class="light-logo" alt="homepage" />
                             </span>
                         </a>
@@ -24,24 +22,9 @@
                             class="ti-more"></i></a>
                 </div>
                 <div class="navbar-collapse collapse" id="navbarSupportedContent">
-                    <!-- ============================================================== -->
-                    <!-- toggle and nav items -->
-                    <!-- ============================================================== -->
                     <ul class="navbar-nav float-left mr-auto ml-3 pl-1">
-                        
-                        <!-- ============================================================== -->
-                        <!-- create new IF REQUIRED-->
-                        <!-- ============================================================== -->
-                        
                     </ul>
-                    <!-- ============================================================== -->
-                    <!-- Right side toggle and nav items -->
-                    <!-- ============================================================== -->
                     <ul class="navbar-nav float-right">
-                        
-                        <!-- ============================================================== -->
-                        <!-- User profile -->
-                        <!-- ============================================================== -->
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="javascript:void(0)" data-toggle="dropdown"
                                 aria-haspopup="true" aria-expanded="false">
@@ -49,7 +32,7 @@
                                     width="35">
                                 
                                     <?php	
-                                    $aid=$_SESSION['id'];
+                                        $aid=$_SESSION['id'];
                                         $ret="SELECT * from admin where id=?";
                                         $stmt= $mysqli->prepare($ret) ;
                                         $stmt->bind_param('i',$aid);
@@ -82,9 +65,6 @@
                                 
                             </div>
                         </li>
-                        <!-- ============================================================== -->
-                        <!-- User profile -->
-                        <!-- ============================================================== -->
                     </ul>
                 </div>
             </nav>

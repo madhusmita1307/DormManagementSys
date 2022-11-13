@@ -12,20 +12,13 @@ const sassFiles = 'scss/*.scss',
 
 //compile scss into css
 function style() {
-
-    //1. Where is my scss
     return gulp.src(sassFiles)
-
-        //2.pass through compiler
         .pipe(sass().on('error', sass.logError))
-
-        //3.wher to save css
         .pipe(gulp.dest(cssDest))
-
         .pipe(browserSync.stream());
-
 }
-//This is for the minify css
+
+//minify css
 function minifycss() {
     return gulp.src(['dist/css/*.css', '!dist/css/**/*.min.css'])
         .pipe(rename({
@@ -35,7 +28,7 @@ function minifycss() {
         .pipe(gulp.dest(cssDest))
 }
 
-// This is for the minifyjs
+
 function minifyjs() {
     return gulp.src(['dist/js/**/*.js', '!dist/js/**/*.min.js'])
         .pipe(rename({
@@ -45,7 +38,7 @@ function minifyjs() {
         .pipe(gulp.dest('dist/js'))
 }
 
-// Copy dependencies to ./public/libs/
+
 function copy() {
     gulp.src(npmDist(), {
             base: './node_modules'

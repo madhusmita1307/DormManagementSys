@@ -101,7 +101,7 @@
     <script>
         $(".preloader ").fadeOut();
     </script>
-    <!-- Start of ChatBot (www.chatbot.com) code -->
+    <!-- Start of ChatBot code -->
 <script type="text/javascript">
     window.__be = window.__be || {};
     window.__be.id = "636dcf075f4cb500073f1725";

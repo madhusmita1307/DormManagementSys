@@ -8,9 +8,7 @@
     // code for change password
     if(isset($_POST['changepwd'])){
     $op=$_POST['oldpassword'];
-    // $op=md5($op);
     $np=$_POST['newpassword'];
-    // $np=md5($np);
     $udate=date('d-m-Y h:i:s', time());;
         $sql="SELECT password FROM userregistration where password=?";
         $chngpwd = $mysqli->prepare($sql);
@@ -71,30 +69,13 @@
         <header class="topbar" data-navbarbg="skin6">
             <?php include '../includes/student-navigation.php'?>
         </header>
-        <!-- ============================================================== -->
-        <!-- End Topbar header -->
-        <!-- ============================================================== -->
-        <!-- ============================================================== -->
-        <!-- Left Sidebar - style you can find in sidebar.scss  -->
-        <!-- ============================================================== -->
         <aside class="left-sidebar" data-sidebarbg="skin6">
             <!-- Sidebar scroll-->
             <div class="scroll-sidebar" data-sidebarbg="skin6">
                 <?php include '../includes/student-sidebar.php'?>
             </div>
-            <!-- End Sidebar scroll-->
         </aside>
-        <!-- ============================================================== -->
-        <!-- End Left Sidebar - style you can find in sidebar.scss  -->
-        <!-- ============================================================== -->
-        <!-- ============================================================== -->
-        <!-- Page wrapper  -->
-        <!-- ============================================================== -->
         <div class="page-wrapper">
-            
-            <!-- ============================================================== -->
-            <!-- Container fluid  -->
-            <!-- ============================================================== -->
             <div class="container-fluid">
                 
                 <div class="col-7 align-self-center">
@@ -218,7 +199,7 @@
         });
     }
     </script>
-    <!-- Start of ChatBot (www.chatbot.com) code -->
+    <!-- Start of ChatBot code -->
 <script type="text/javascript">
     window.__be = window.__be || {};
     window.__be.id = "636dcf075f4cb500073f1725";

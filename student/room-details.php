@@ -103,7 +103,7 @@
                                             ;?> </td>
 
                                             <td><b>Fees Per Month :</b></td>
-                                            <td>$<?php echo $fpm=$row->feespm;?></td>
+                                            <td>Rs.<?php echo $fpm=$row->feespm;?></td>
 
                                             
 
@@ -113,9 +113,9 @@
                                             <td colspan="6"><b>Total Fees (<?php echo ($dr).' months'?>) : 
                                             <?php if($row->foodstatus==1){ 
                                             $fd=211; 
-                                            echo '$'.(($fd+$fpm)*$dr);
+                                            echo 'Rs.'.(($fd+$fpm)*$dr);
                                             } else {
-                                            echo '$'.$dr*$fpm;
+                                            echo 'Rs.'.$dr*$fpm;
                                             }
                                             ?></b></td>
                                             </tr>
@@ -205,7 +205,7 @@
     <script src="../assets/libs/chartist/dist/chartist.min.js"></script>
     <script src="../assets/libs/chartist-plugin-tooltips/dist/chartist-plugin-tooltip.min.js"></script>
     <script src="../dist/js/pages/dashboards/dashboard1.min.js"></script>
-    <!-- Start of ChatBot (www.chatbot.com) code -->
+    <!-- Start of ChatBot code -->
 <script type="text/javascript">
     window.__be = window.__be || {};
     window.__be.id = "636dcf075f4cb500073f1725";

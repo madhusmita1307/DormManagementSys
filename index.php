@@ -80,7 +80,7 @@
                 <h1>Welcome to Hostel Management System</h1>
             </div>
         </div>
-        <!-- Login box.scss -->
+        
         <div class="auth-wrapper d-flex no-block justify-content-center align-items-center position-relative"
             style="background:url(../assets/images/big/auth-bg.jpg) no-repeat center center;">
             <div class="auth-box row">
@@ -128,8 +128,7 @@
     <script>
         $(".preloader ").fadeOut();
     </script>
- <!-- Start of ChatBot (www.chatbot.com) code -->
-<!-- Start of ChatBot (www.chatbot.com) code -->
+<!-- ChatBot code -->
 <script type="text/javascript">
     window.__be = window.__be || {};
     window.__be.id = "636dcf075f4cb500073f1725";
@@ -139,7 +138,6 @@
         var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(be, s);
     })();
 </script>
-<!-- End of ChatBot code -->
 </body>
 
 </html>

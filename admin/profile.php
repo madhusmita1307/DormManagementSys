@@ -168,7 +168,7 @@
     <script src="../dist/js/pages/dashboards/dashboard1.min.js"></script>
     <script src="../assets/extra-libs/datatables.net/js/jquery.dataTables.min.js"></script>
     <script src="../dist/js/pages/datatable/datatable-basic.init.js"></script>
-<!-- Start of ChatBot (www.chatbot.com) code -->
+<!-- Start of ChatBot code -->
 <script type="text/javascript">
     window.__be = window.__be || {};
     window.__be.id = "636dcf075f4cb500073f1725";

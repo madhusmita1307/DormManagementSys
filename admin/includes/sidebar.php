@@ -19,22 +19,9 @@
         aria-expanded="false"><i class="fas fa-user-circle"></i><span
         class="hide-menu">View Student Acc.</span></a></li>
 
-        <!--<li class="sidebar-item"> <a class="sidebar-link sidebar-link" href="bookings.php"
-        aria-expanded="false"><i class="fas fa-h-square"></i><span
-        class="hide-menu">Book Hostel</span></a></li>-->
-
         <li class="sidebar-item"> <a class="sidebar-link sidebar-link" href="manage-students.php"
         aria-expanded="false"><i class="fas fa-users"></i><span
         class="hide-menu">Hostel Students</span></a></li>
-
-        <!--<li class="sidebar-item"> <a class="sidebar-link sidebar-link" href="manage-rooms.php"
-        aria-expanded="false"><i class="fas fa-bed"></i><span
-        class="hide-menu">Manage Rooms</span></a></li>-->
-
-        <!--<li class="sidebar-item"> <a class="sidebar-link sidebar-link" href="manage-courses.php"
-        aria-expanded="false"><i class="fas fa-book"></i><span
-        class="hide-menu">Manage Courses</span></a></li>-->
                            
     </ul>
 </nav>
-<!-- End Sidebar navigation -->
