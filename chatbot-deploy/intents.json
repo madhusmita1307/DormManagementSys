@@ -1,0 +1,73 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hi",
+        "Hey",
+        "How are you",
+        "Is anyone there?",
+        "Hello",
+        "Good day"
+      ],
+      "responses": [
+        "Hey :-)",
+        "Hello, thanks for visiting",
+        "Hi there, what can I do for you?",
+        "Hi there, how may I help you?",
+        "Are you a student?",
+        "Go on.."
+      ]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "See you later", "Goodbye"],
+      "responses": [
+        "See you later, thanks for visiting",
+        "Have a nice day",
+        "Bye! Come back again soon."
+      ]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thanks", "Thank you", "That's helpful", "Thank's a lot!"],
+      "responses": ["Happy to help!", "Any time!", "My pleasure"]
+    },
+    {
+      "tag": "room",
+      "patterns": [
+        "Where can i view my room details?",
+        "How to view room details?",
+        "Which is my room?"
+      ],
+      "responses": [
+        "Go to \"My Room Details\" in your dashboard",
+        "Click on \"My Room Details\" in your dashboard"
+      ]
+    },
+    {
+      "tag": "book",
+      "patterns": [
+        "How can i book a hostel room?",
+        "Where to apply for a hostel room?",
+        "Hostel room registration"
+      ],
+      "responses": [
+         "Go to \"Book Hostel\" in your dashboard",
+        "Click on \"Book Hostel\" in your dashboard"
+      ]
+    },
+    {
+      "tag": "student",
+      "patterns": [
+        "Where can i view the student details?",
+        "How to approve student application?",
+        "Where is student information"
+      ],
+      "responses": [
+         "Head to your dashboard for the student details",
+        "Click on the options in your dashboard to view student details."
+      ]
+    }
+  ]
+}
